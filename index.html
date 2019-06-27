@@ -71,13 +71,14 @@
 						</div>
 						<div class="divb">
 								<div> 
- 										<font size="3">
-										<div> var planes = []</div>
-										<div>var p1 = new THREE.Vector4(1,0,0,0)</div>
-										<div>var p2 = new THREE.Vector4(0,0,-1,-20)</div>
-										<div>planes.push(p1)</div>
-										<div>NOP_VIEWER.setCutPlanes(plans)</div>
-									  </font>
+										<textarea cols="35" rows="20">
+											var planes = []
+											var p1 = new THREE.Vector4(1,0,0,0)
+											var p2 = new THREE.Vector4(0,0,-1,-20)
+											planes.push(p1)
+											planes.push(p2) 
+											NOP_VIEWER.setCutPlanes(planes)
+										</textarea> 
 								</div>
 						</div>  
 					</div>
@@ -90,12 +91,32 @@
 
 				<section>
 					<h5><a href='https://forge-rcdb.autodesk.io/database?id=583ec7efebfb320e3cef26a5' target="_blank">建筑成本</a></h5> 
-					<img width="800" height="500" data-src="pic/cost.jpg">  
+					<div class="diva">
+						<img width="800" height="500" data-src="pic/cost.jpg"> 
+					</div> 
+					<div class="divb">
+							<div> 
+									<textarea cols="40" rows="20">
+											var id = NOP_VIEWER.getSelection()
+											NOP_VIEWER.getProperties(id,i>console.log(i))
+									</textarea> 
+							</div>
+					</div>
 				</section> 
 
 				<section>
 					<h5><a href='https://forge-rcdb.autodesk.io/configurator?id=58adee163e6f342cf1e92dae' target="_blank">运维</a></h5> 
-					<img width="800" height="500" data-src="pic/iot.jpg">  
+					<div class="diva">
+						<img width="800" height="500" data-src="pic/iot.jpg">  
+					</div>
+					<div class="divb">
+							<div> 
+									<textarea cols="35" rows="20">
+											var id = NOP_VIEWER.getSelection()
+											NOP_VIEWER.setThemingColor(id,new THREE.Vector4(1,0,0,0))
+									</textarea> 
+							</div>
+					</div>
 				</section> 
 
 				<section>
