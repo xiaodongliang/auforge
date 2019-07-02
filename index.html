@@ -82,7 +82,7 @@
 								<div> 
 										<textarea cols="35" rows="20">
 											var planes = []
-											var p1 = new THREE.Vector4(1,0,0,0)
+											var p1 = new THREE.Vector4(0,0,1,0)
 											var p2 = new THREE.Vector4(0,0,-1,-20)
 											planes.push(p1)
 											planes.push(p2) 
@@ -107,7 +107,7 @@
 							<div> 
 									<textarea cols="40" rows="20">
 											var id = NOP_VIEWER.getSelection()
-											NOP_VIEWER.getProperties(id,i->console.log(i))
+											NOP_VIEWER.getProperties(id,i=>console.log(i))
 									</textarea> 
 							</div>
 					</div>
