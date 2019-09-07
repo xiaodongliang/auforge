@@ -87,17 +87,17 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "https://static.parastorage.com/services/wix-ui-santa/1.323.0/";
+/******/ 	__webpack_require__.p = "https://static.parastorage.com/services/wix-ui-santa/1.329.0/";
 /******/
 /******/
 /******/ 	__webpack_require__.p = typeof window !== 'undefined' && window.__STATICS_BASE_URL__ || __webpack_require__.p;
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1093);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1143);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 1093:
+/***/ 1143:
 /*!*********************!*\
   !*** ./dataRefs.js ***!
   \*********************/
@@ -113,7 +113,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _dataRefs = __webpack_require__(/*! ./dataRefs.json */ 1094);
+var _dataRefs = __webpack_require__(/*! ./dataRefs.json */ 1144);
 
 var _dataRefs2 = _interopRequireDefault(_dataRefs);
 
@@ -123,7 +123,7 @@ exports.default = _dataRefs2.default;
 
 /***/ }),
 
-/***/ 1094:
+/***/ 1144:
 /*!***********************!*\
   !*** ./dataRefs.json ***!
   \***********************/
